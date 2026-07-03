@@ -5,7 +5,7 @@
     "artist": "Arijit Singh",
     "albumImage": "/images/apna bana le.jpeg",
     "note": "The song that reminds me of you.",
-    "spotifyLink": "https://open.spotify.com/search/Apna%20Bana%20Le"
+    "spotifyLink": "https://open.spotify.com/track/4hsZteUiuGNHKAJRdawLDX"
   },
   {
     "id": "p2",
@@ -13,7 +13,7 @@
     "artist": "Mohit Chauhan",
     "albumImage": "/images/tum se hi.jpeg",
     "note": "The song I want to dedicate to you.",
-    "spotifyLink": "https://open.spotify.com/search/Tum%20Se%20Hi%20Mohit%20Chauhan"
+    "spotifyLink": "https://open.spotify.com/track/7eQl3Yqv35ioqUfveKHitE"
   },
   {
     "id": "p3",
@@ -21,6 +21,6 @@
     "artist": "Mohammed Rafi",
     "albumImage": "/images/gulabi ankhe.jpeg",
     "note": "You completely ruined this song for me... now every time it plays, I can't help but laugh.",
-    "spotifyLink": "https://open.spotify.com/search/Gulabi%20Aankhen%20Jo%20Teri%20Dekhi"
+    "spotifyLink": "https://open.spotify.com/track/2FGdGs3lLkRCG8sajqfCbv"
   }
 ]
