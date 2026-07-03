@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/I524886/Documents/**)",
+      "Bash(mkdir -p \"/Users/I524886/Documents/Personal Project/Birthday Final/hb/public/images\")"
+    ],
+    "additionalDirectories": [
+      "/Users/I524886/Documents/Personal Project/Birthday Final/hb/public"
+    ]
+  }
+}

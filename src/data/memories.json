@@ -1,0 +1,30 @@
+[
+  {
+    "id": "m1",
+    "title": "Sakleshpur Trip",
+    "photo": "/images/Sakleshpur trip.jpeg",
+    "story": "Our first night together, where I got to discover a little more about you... including the fact that you are always prepared. 😉",
+    "quote": "Some memories are special because they are the first."
+  },
+  {
+    "id": "m2",
+    "title": "Ooty Trip",
+    "photo": "/images/Ooty trip.jpeg",
+    "story": "We did all the little couple things, laughed, explored, and somehow made sure everyone knew we were together.",
+    "quote": "Some trips are not just about places, but about the person beside you."
+  },
+  {
+    "id": "m3",
+    "title": "Our First Snowfall",
+    "photo": "/images/first snowfall.jpeg",
+    "story": "We both wanted to see snowfall on the trip, and somehow the universe decided to make that wish come true for us.",
+    "quote": "Some moments feel like they were meant to happen."
+  },
+  {
+    "id": "m4",
+    "title": "New Year",
+    "photo": "/images/New year.jpeg",
+    "story": "We might look a little weird in the picture, but I'll always smile looking back at it. Thank you for spending that day with me.",
+    "quote": "The best memories don't need perfect pictures."
+  }
+]

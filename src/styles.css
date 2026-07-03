@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #fbf7f0;
+  --foreground: #3a2e26;
+
+  --cream: #f6efe2;
+  --beige: #e9dcc4;
+  --paper: #fbf6ec;
+
+  --rose: #e8b8b8;
+  --rose-deep: #c97a7a;
+
+  --gold: #c9a253;
+  --gold-soft: #e3cb91;
+
+  --ink: #3a2e26;
+  --ink-soft: #6b5a4d;
+
+  --border: #e3d8c4;
+  --primary-foreground: #fdfaf3;
+}
+
+html { scroll-behavior: smooth; }
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: "Inter", ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+h1, h2, h3, h4 {
+  font-family: "Cormorant Garamond", ui-serif, Georgia, serif;
+  letter-spacing: -0.01em;
+}
+
+@layer components {
+  .paper-card {
+    background: var(--paper);
+    border-radius: 1.5rem;
+    box-shadow: 0 2px 6px -2px rgba(60,40,30,0.14), 0 18px 40px -20px rgba(60,40,30,0.22);
+    border: 1px solid rgba(60,40,30,0.06);
+  }
+  .tape-piece {
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%) rotate(-3deg);
+    width: 70px;
+    height: 18px;
+    background: rgba(201, 162, 83, 0.45);
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.06);
+  }
+}
