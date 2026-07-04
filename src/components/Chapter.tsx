@@ -39,10 +39,23 @@ export function Chapter({ chapter, index }: { chapter: ChapterData; index: numbe
             <p className="mt-6 whitespace-pre-line text-lg leading-relaxed text-ink-soft">{chapter.story}</p>
 
             {chapter.images && chapter.images.length > 0 && (
-              <div className="mt-8 grid grid-cols-2 gap-3">
-                {chapter.images.map((src, i) => (
-                  <img key={i} src={src} alt="" className="rounded-xl object-cover shadow-soft" />
-                ))}
+              <div className="mt-8">
+                {chapter.images.length === 1 ? (
+                  <div className="flex justify-center">
+                    <img src={chapter.images[0]} alt="" className="w-3/4 h-auto rounded-xl shadow-soft" />
+                  </div>
+                ) : (
+                  <div className="grid grid-cols-2 gap-3 items-start">
+                    {chapter.images.slice(0, 2).map((src, i) => (
+                      <img key={i} src={src} alt="" className="aspect-[3/4] w-full rounded-xl object-cover shadow-soft" />
+                    ))}
+                    {chapter.images.length > 2 && (
+                      <div className="col-span-2 flex justify-center">
+                        <img src={chapter.images[2]} alt="" className="w-1/2 aspect-[3/4] rounded-xl object-cover shadow-soft" />
+                      </div>
+                    )}
+                  </div>
+                )}
               </div>
             )}
 

@@ -22,7 +22,7 @@ export function Playlist() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: i * 0.08 }}
-              className="paper-card flex flex-col gap-5 p-5 sm:flex-row sm:items-center"
+              className="paper-card flex flex-col items-center gap-5 p-5 text-center sm:flex-row sm:items-center sm:text-left"
             >
               <img
                 src={song.albumImage}
